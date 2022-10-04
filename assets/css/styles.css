@@ -14,7 +14,7 @@
   --body-color: hsl(var(--hue-color), 24%, 94%);
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Poppins', Monospace;
   --biggest-font-size: 3rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
@@ -58,7 +58,7 @@ body.dark-theme {
   display: flex;
   padding: .25rem;
   border-radius: 50%;
-  box-shadow: inset -1px -1px 1px hsla(var(--hue-color), 0%, 100%, 1), 
+  box-shadow: inset -2px -2px 2px hsla(var(--hue-color), 0%, 100%, 1), 
               inset 1px 1px 1px hsla(var(--hue-color), 30%, 86%, 1);
   color: var(--first-color);
   cursor: pointer;
